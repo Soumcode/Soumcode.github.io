@@ -1,0 +1,174 @@
+html, body {
+  margin:0px;
+  height:100%;
+  text-align: center;
+
+}
+
+.bg-div{
+  position: relative;
+  background-image: url("doggos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left:0px;
+  height:130%;
+
+
+
+}
+.dog{
+  height:250px;
+}
+
+
+.head-div{
+  position:relative;
+  /*background-image: linear-gradient(to right top, #e7c1e4, #eab7da, #ecadcf, #efa3c2, #f099b3);*/
+  height:45%;
+  width:30%;
+  top:75px;
+  left:75px;
+  border-radius: 100px;
+
+}
+h1{
+  position:absolute;
+  padding-top: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3rem;
+  color:black;
+  word-spacing: 10px;
+  top:65px;
+  margin-left:60px;
+}
+
+span{
+  color:#D37BAA;
+}
+u{
+  color:powderblue;
+}
+
+.border{
+  position:absolute;
+  top:0px;
+  height:500px;
+  width:500px;
+  left:0px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("dogpara.jpg");
+
+  /* Set a specific height */
+  height:450px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.para-div{
+
+  height:750px;
+  background-image: radial-gradient(circle, #f6e9f5, #f6eef8, #f8f3fa, #faf8fc, #fdfdfd);
+
+}
+
+.input-div{
+  padding-top: 100px;
+
+}
+
+.btn {
+
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: black;
+  padding: 10px 20px 10px 20px;
+  border: solid #ed91a3 3px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ed91a3;
+
+  text-decoration: none;
+}
+
+#myInput{
+ background-color: transparent;
+ border-color: white;
+ height:50px;
+ width:500px;
+ color:black;
+ font-size: 20px;
+}
+
+#myInput:hover{
+  border-color: #EDE1EC;
+}
+
+#myInput::placeholder{
+  color:#EDE1EC;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:30px;
+
+}
+
+#answer{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+.footer{
+  background-image: radial-gradient(circle, #090607, #21171b, #35242c, #4b313e, #623f52);
+  height:150px;
+  width:100%;
+}
+
+#dogName{
+ background-color: transparent;
+ border-color: white;
+ height:50px;
+ width:500px;
+ color:black;
+ font-size: 20px;
+}
+
+#dogName:hover{
+  border-color: #EDE1EC;
+}
+
+#dogName::placeholder{
+  color:#EDE1EC;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:30px;
+
+}
+
+.pug-gif{
+  height:35%;
+  margin-bottom: 0px;
+}
+
+.realage{
+ height:50%;
+ width:75%
+}
+.know-your-dog{
+  font-family: 'Fjalla One', sans-serif;
+  font-size:3rem;
+  color: black;
+  text-shadow:2px 2px white;
+}
+.footer{
+  margin-bottom: 0px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles-bmi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+   <div class="main-div">
+    <div class="head-div">
+      <h1>Welcome, get your <span class="yellow"> BMI </span>checked.</h1>
+   </div></div>
+   <div class="second-page">
+     <h1 class="bmi-head"> <u><span>What is BMI?</span></u></h1>
+ <div class="para-div">
+     <p> Body Mass Index (BMI) is a measurement of a person’s weight with respect to his or her height. It is more of an indicator than a direct measurement of a person’s total body fat.
+
+BMI, more often than not, correlates with total body fat. This means that as the BMI score increases, so does a person’s total body fat.</p>
+</div>
+ <img class="bmichart"src="bmi-chart-img.jpeg" alt="bmichart-img">
+ <div class="btn-class">
+   <br><br><br>
+   <a class="btn" href="#calc">CLICK HERE TO GET YOUR'S CHECKED.</a><br><br><br>
+
+ </div>
+ <div class="in-div" id="calc">
+        <div><div ><input type="text" placeholder="Enter your height(in meters)" id="height"></div>
+         <div> <input type="text" placeholder="Enter your weight(in kgs)" id="weight"></div>
+
+        <div ><br><br><button class="btn1" type="button" onclick="getInputVal();">Get Value</button><br><br></div></div>
+        <div ><p id="answer"></p></div>
+        </div>
+
+   <script src="index-bmi.js" type="text/javascript">
+
+   </script>
+  </body>
+</html>

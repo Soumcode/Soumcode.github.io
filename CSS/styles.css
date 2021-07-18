@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #494453;
+  font-weight: normal;
+  line-height: 2;
+}
+h2 {
+  margin: 50px auto 0 auto;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #494453;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #825e81;
+}
+
+.bottom-container {
+  background-color: #b1a6c9;
+  padding: 50px 0 20px;
+}
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.top-container {
+  background-color: #f7f1ff;
+  position: relative;
+  padding-top: 20px;
+}
+.coding {
+  height: 200px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 300px;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 200px;
+}
+
+.myphoto {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 350px;
+}
+
+.digiart {
+  width: 30%;
+  height: 30;
+  float: right;
+  margin-left: 20px;
+}
+
+.coding {
+  width: 30%;
+  height: 30%;
+  float: left;
+  margin-right: 20px;
+}
+
+.anime {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.skill-row {
+  width: 65%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+
+  padding-bottom: 20px;
+}
+
+hr {
+  border: dotted #afa8ba;
+  border-width: 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+  background-color: transparent !important;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #b1a6c9;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #dfa9cf;
+  text-decoration: none;
+}
+.copyright {
+  color: #f4eeff;
+  font-size: 1rem;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.footer-link {
+  color: #825e81;
+}
+
+p {
+  line-height: 2
+
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 375px;
+
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* akshit changed this */
+  color: #494453 !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* akshit added this for nav links when
+screen size decreases and toggle appears can check it
+using inspect element and decreasing the screen size */
+.navbar-light .navbar-nav .nav-link {
+  color: #494453 !important;
+}
+
+.intro-para{
+  word-spacing: 5px;
+  margin: 20px 150px;
+}
+
+.p-bg{
+
+
+  width:75%;
+  /*background-image: linear-gradient(to right top, #eee3ea, #f1e8ee, #f4edf3, #f8f2f7, #fbf7fb);*/
+  border-radius: 10px;
+  margin: 20px 150px;
+  background-color: #F8F8F8;
+  padding-top:10px;
+  padding-bottom: 20px;
+
+
+}
+
+u{
+  color:#825e81;
+}

@@ -1,0 +1,148 @@
+html,body{
+  margin: 0px;
+  height:100%;
+  text-align: center;
+
+}
+.main-div{
+  position: relative;
+
+
+  background-color:#EFA38C;
+  height:100%;
+}
+
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 4.25rem;
+}
+.yellow{
+  color: yellow;
+}
+
+.head-div{
+  position: absolute;
+  top: 150px;
+  left:450px;
+  height:400px;
+  width:500px;
+  border-style:double;
+  padding-top: 60px;
+
+
+  border-width: 7.5px;
+
+}
+
+p{
+  font-size: 1.75rem;
+}
+
+.para-div{
+  height:400px;
+  width:1000px;
+  line-height: 2;
+  padding-left: 200px;
+}
+
+.bmi-head{
+  padding-top: 50px;
+}
+
+.bmichart{
+  height:350px;
+  width:550px;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 13px 20px 13px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9DC8EE;
+  text-decoration: none;
+}
+
+.in-div{
+  background-color: #9DC8EE;
+  height:100%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+#weight{
+ background-color: transparent;
+ border-color: white;
+ height:50px;
+ width:500px;
+ color:black;
+ font-size: 20px;
+}
+
+#weight:hover{
+  border-color:#BEDFFD;
+}
+
+#weight::placeholder{
+  color:#BEDFFD;
+  font-family: 'Inter', sans-serif;
+  font-size:30px;
+
+}
+
+#answer{
+  font-family: 'Inter', sans-serif;
+  font-size: 50px;
+  color: black;
+}
+
+
+
+#height{
+ background-color: transparent;
+ border-color: white;
+ height:50px;
+ width:500px;
+ color:black;
+ font-size: 20px;
+}
+
+#heigth:hover{
+  border-color: #BEDFFD;
+}
+
+#height::placeholder{
+  color:#BEDFFD;
+  font-family: 'Inter', sans-serif;
+  font-size:30px;
+
+}
+
+.btn1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 13px 20px 13px 20px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #9DC8EE;
+  text-decoration: none;
+}
+
+.footer-color{
+  background-color:#EFA38C;
+
+}
